@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import NewYoutubeForm from "./components/NewYoutubeForm";
+import Youtubeform from "./components/Youtubeform";
+import YupForm from "./components/YupForm";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* PS: Youtube form is simple form designed using use formic hook of formic */}
+      {/* <Youtubeform /> */}
+
+      {/* In yup form form validating is works only using yup browser */}
+      {/* <YupForm /> */}
+      <NewYoutubeForm />
     </div>
   );
 }
